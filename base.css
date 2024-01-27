@@ -129,7 +129,8 @@
 .img4 {
     position: absolute;
     top: 25px;
-    left: 769px;
+    left: 760px;
+    z-index: -1px;
 }
 
 .img5 {
@@ -163,3 +164,128 @@
 /* ////////// */
 
 
+.Greetings-content {}
+
+.flex-for {
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    padding-left: 300px;
+    gap: 30px;
+
+}
+
+
+.for {
+    padding-top: 25px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+
+.forEvery {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+
+.cloud-massage {
+    position: absolute;
+    top: 534px;
+    left: 183px;
+    color: #FFF;
+    width: 230px;
+    height: 170px;
+    border-radius: 20px;
+    border: 2px solid rgb(10, 0, 151);
+
+}
+
+
+
+.sova-massage {
+    text-align: center;
+    padding-top: 29px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.sova {
+    position: absolute;
+    top: 645px;
+    left: 144px;
+    width: 120px;
+    max-width: 40%;
+}
+
+
+/* /// */
+
+
+.video-chel {
+    position: relative;
+}
+
+
+.chel {
+    position: absolute;
+    z-index: 1;
+    top: 202px;
+    left: 150px;
+}
+
+.fall {
+    position: absolute;
+    z-index: 2;
+    top: 202px;
+    left: 150px;
+}
+
+.play {
+    position: absolute;
+    z-index: 3;
+    top: 380px;
+    left: 490px;
+}
+
+.white-tringle {
+    width: 140px;
+    position: absolute;
+    top: 900px;
+    left: 260px;
+}
+
+.linia41 {
+    width: 190px;
+    position: absolute;
+    top: 1290px;
+    left: 168px;
+}
+
+.linia42 {
+    width: 210px;
+    position: absolute;
+    top: 1000px;
+    left: 1110px;
+}
+
+.white-croos {
+    width: 180px;
+    position: absolute;
+    top: 1370px;
+    left: 1100px;
+}
+
+/* ///////// */
