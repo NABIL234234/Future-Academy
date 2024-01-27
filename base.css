@@ -1,0 +1,165 @@
+.container {
+    max-width: 1110px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 19px;
+}
+
+.header-nav {
+    display: flex;
+}
+
+.header-nav ul {
+    display: flex;
+    gap: 40px;
+}
+
+.header-nav img {
+    padding-right: 6px;
+}
+
+.city {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.city-number-user {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.user {
+    display: flex;
+    gap: 9px;
+}
+
+.heading-content {
+    position: relative;
+}
+
+.header-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.dark-side {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 54%;
+    height: 100%;
+    background: #00093C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    color: white;
+}
+
+.heading-text {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: 115px;
+    white-space: nowrap;
+
+}
+
+.heading-main-text,
+.heading-main-text2,
+.heading-mini-text {
+    color: #FFF;
+    font-family: Montserrat;
+}
+
+.heading-main-text {
+    font-size: 36px;
+    font-weight: 700;
+
+}
+
+.heading-main-text2 {
+    padding-top: 20px;
+    font-size: 36px;
+    font-weight: 700;
+    padding-top: 41px;
+}
+
+.heading-mini-text {
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 41px;
+}
+
+.img1 {
+    position: absolute;
+    width: 95px;
+    top: 50px;
+    left: 105px;
+}
+
+
+.img2 {
+    position: absolute;
+    width: 286px;
+    top: 300px;
+    left: -9px;
+
+}
+
+
+.img3 {
+    width: 80px;
+    position: absolute;
+    top: 305px;
+    left: 500px;
+}
+
+.img4 {
+    position: absolute;
+    top: 25px;
+    left: 769px;
+}
+
+.img5 {
+    width: 262px;
+    position: absolute;
+    top: auto;
+    left: 635px;
+}
+
+.img6 {
+    width: 60px;
+    position: absolute;
+    top: 95px;
+    left: 950px;
+}
+
+.img7 {
+    position: absolute;
+    top: 50px;
+    left: 1200px;
+}
+
+.img8 {
+    width: 126.589px;
+    height: 266.589px;
+    position: absolute;
+    top: 180px;
+    left: 1350px;
+}
+
+/* ////////// */
+
+
