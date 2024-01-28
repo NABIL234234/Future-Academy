@@ -104,61 +104,62 @@
 
 .img1 {
     position: absolute;
-    width: 95px;
-    top: 50px;
-    left: 105px;
+    width: 10%;
+    top: 20%;
+    left: 10%;
 }
 
 
 .img2 {
     position: absolute;
-    width: 286px;
-    top: 300px;
-    left: -9px;
+    width: 39%;
+    top:  80%;
+    left: 10%;
 
 }
 
 
 .img3 {
-    width: 80px;
+    width: 10%;
     position: absolute;
-    top: 305px;
-    left: 500px;
+    top: 80%;
+    left: 65%;
 }
 
 .img4 {
+    width: 10%;
     position: absolute;
-    top: 25px;
-    left: 760px;
-    z-index: -1px;
+    top: 7%;
+    left: 95%;
 }
 
 .img5 {
-    width: 262px;
+    width: 31.6%;
     position: absolute;
     top: auto;
-    left: 635px;
+    left: 76.5%;
 }
 
 .img6 {
-    width: 60px;
+    width: 8.4%;
     position: absolute;
-    top: 95px;
-    left: 950px;
+    top: 22%;
+    left: 112.4%;
 }
 
 .img7 {
+    width: 9%;
     position: absolute;
-    top: 50px;
-    left: 1200px;
+    top: 17%;
+    left: 137%;
 }
 
 .img8 {
-    width: 126.589px;
-    height: 266.589px;
+    width: 12%;
+    height: 66%;
     position: absolute;
-    top: 180px;
-    left: 1350px;
+    top: 55%;
+    left: 150%;
 }
 
 /* ////////// */
@@ -224,10 +225,10 @@
 
 .sova {
     position: absolute;
-    top: 645px;
-    left: 144px;
-    width: 120px;
-    max-width: 40%;
+    top: 90%;
+    left: 10%;
+    width: 9%;
+    max-width: 300px;
 }
 
 
@@ -288,4 +289,14 @@
     left: 1100px;
 }
 
+.chel-img{
+    background-color:aquamarine;
+}
+
 /* ///////// */
+
+
+.Me-content{
+    background-color: ;
+}
+
