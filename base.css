@@ -609,6 +609,7 @@
 
 .values{
     padding-top: 70px;
+    padding-bottom: 75px;
 }
 
 .our-values-text{
@@ -644,5 +645,33 @@
     }
 }
 
+/* /////////// */
 
-/* ////// */
+.splide{
+    width: auto;
+    height: 500px;
+    background-color:#00093C;
+}
+
+.splide__arrow{
+    background:none;
+}
+
+.splide__arrow svg{
+ width: 70px;
+ height: 70px;
+}
+
+
+
+.Cards{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    color:#FFF;
+    padding-top: 100px;
+    gap: 20px;
+}
+
+

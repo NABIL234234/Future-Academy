@@ -15,3 +15,10 @@ burgerMenu.addEventListener("click", () => {
     }
 
 })
+
+
+const mySlider = new Splide('#mySlider',{
+    perPage:2,
+})
+
+mySlider.mount()
