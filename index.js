@@ -19,13 +19,14 @@ burgerMenu.addEventListener("click", () => {
 
 const mySlider = new Splide('#mySlider',{
     perPage:2,
+    pagination:false,
     breakpoints: {
         1024: {
             perPage:1
         },
         768: {
-            arrows: false,
-            
+            arrows: false,    
+            pagination:true       
         }
     }
 })

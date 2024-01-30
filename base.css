@@ -671,9 +671,8 @@
     left: 90%;
 }
 
-.splide__arrow {
+.splide__arrows {
     background: none;
-    font-size: 25px;
 }
 
 .splide__arrow svg {
@@ -698,8 +697,7 @@
     text-align: center;
 }
 
-
-@media (max-width:1025px) {
+@media (max-width: 1025px) {
     .splide {
         height: 400px;
     }
@@ -709,8 +707,12 @@
         padding-left: 30px;
         padding-right: 30px;
     }
-}
 
+    .splide__arrow {
+        display: none;
+        background:none;
+    }
+}
 
 /* ///////////// */
 
@@ -801,7 +803,7 @@
     line-height: 34px
 }
 
-.partner-row{
+.partner-row {
     display: flex;
     gap: 30px;
     padding-top: 30px;
@@ -810,42 +812,42 @@
 .mbank {
     width: 180px;
     height: 120px;
-    border-radius:20px;
-    background-color:#fff;
-    padding-top:35px;
-    
+    border-radius: 20px;
+    background-color: #fff;
+    padding-top: 35px;
+
 }
 
-.mbank:hover{
+.mbank:hover {
     width: 190px;
     height: 130px;
     transition: 0.7s;
-    filter:drop-shadow(0px 0px 4px #00093C)
+    filter: drop-shadow(0px 0px 4px #00093C)
 }
 
-.mbank img{
+.mbank img {
     width: 88%;
     padding-left: 25px;
 }
 
 
-.it-academy{
+.it-academy {
     width: 180px;
     height: 120px;
-    border-radius:20px;
-    background-color:#fff;
+    border-radius: 20px;
+    background-color: #fff;
 
 }
 
-.it-academy:hover{
+.it-academy:hover {
     width: 190px;
     height: 130px;
     transition: 0.7s;
-    filter:drop-shadow(0px 0px 4px #00093C)
+    filter: drop-shadow(0px 0px 4px #00093C)
 }
 
 
-.it-academy img{
+.it-academy img {
     width: 88%;
     padding-left: 25px;
 }
@@ -853,40 +855,180 @@
 .dodo-pizza {
     width: 180px;
     height: 120px;
-    border-radius:20px;
-    background-color:#fff;  
+    border-radius: 20px;
+    background-color: #fff;
 }
 
 
-.dodo-pizza:hover{
+.dodo-pizza:hover {
     width: 190px;
     height: 130px;
     transition: 0.7s;
-    filter:drop-shadow(0px 0px 4px #00093C)
+    filter: drop-shadow(0px 0px 4px #00093C)
 }
 
-.dodo-pizza img{
+.dodo-pizza img {
     width: 83%;
     padding-left: 30px;
 }
 
-.beelien{
+.beelien {
     width: 180px;
     height: 120px;
-    border-radius:20px;
-    background-color:#fff; 
+    border-radius: 20px;
+    background-color: #fff;
 }
 
-.beelien:hover{
+.beelien:hover {
 
     width: 190px;
     height: 130px;
     transition: 0.7s;
-    filter:drop-shadow(0px 0px 4px #00093C)
+    filter: drop-shadow(0px 0px 4px #00093C)
 }
 
-.beelien img{
+.beelien img {
     width: 88%;
     padding-left: 30px;
     padding-top: 10px;
+}
+
+
+@media (max-width:1025px){
+    .partner-row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .mbank{
+        padding-top: 45px;
+    }
+
+    .it-academy{
+        padding-top: 0px;
+        padding-right: 10px;
+    }
+
+    .dodo-pizza{
+        padding-top: 0px;
+    }
+}
+
+/* /// */
+
+
+.link {
+    padding-top: 75px;
+}
+
+.press-text {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.link-content {
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.it {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    width: 280px;
+    height: 160px;
+    border-radius: 20px;
+    background: #C7EEFF;
+}
+
+
+.it:hover{
+    width: 300px;
+    height: 180px;
+    transition: 0.7s;
+    filter: drop-shadow(0px 0px 4px #00093C);
+}
+
+.career{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    width: 280px;
+    height: 160px;
+    border-radius: 20px;
+    background: #FFE38E;
+}
+
+
+.career:hover{
+    width: 300px;
+    height: 180px;
+    transition: 0.7s;
+    filter: drop-shadow(0px 0px 4px #00093C);
+}
+
+.chess{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    width: 280px;
+    height: 160px;
+    border-radius: 20px;
+    background: #DDF;
+}
+
+.chess:hover{
+    width: 300px;
+    height: 180px;
+    transition: 0.7s;
+    filter: drop-shadow(0px 0px 4px #00093C);
+}
+
+.i-wanna{
+    max-width: 118px;
+    padding-top: 18px;
+    color: var(--dark-blue, #00093C);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+@media (max-width:1025px){
+    .link-content{
+        display: block;
+    }
+
+    .it{
+      margin-top: 40px;
+    }
+
+    .career{
+        margin-top: 40px;
+    }
+
+    .chess{
+        margin-top: 40px;
+    }
+}
+
+
+/* /////////////// */
+
+
+footer{
+    width: auto;
+    height: 580px;
+    background: #00093C;
 }
