@@ -450,6 +450,16 @@
     }
 }
 
+
+@media (max-height:900px){
+    .cloud-massage{
+        position: absolute;
+        top: 40%;
+        height: 15.9%;
+    }
+}
+
+
 /* /// */
 
 .video {
