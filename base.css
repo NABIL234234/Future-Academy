@@ -710,7 +710,7 @@
 
     .splide__arrow {
         display: none;
-        background:none;
+        background: none;
     }
 }
 
@@ -754,6 +754,7 @@
 
 .flex-curs {
     display: flex;
+    justify-content: center;
     padding-top: 60px;
     gap: 122px;
 }
@@ -790,6 +791,10 @@
 /* ///// */
 
 
+.link {
+    padding-bottom: 150px;
+}
+
 .parthers {
     padding-top: 105px;
 }
@@ -805,6 +810,7 @@
 
 .partner-row {
     display: flex;
+    justify-content: center;
     gap: 30px;
     padding-top: 30px;
 }
@@ -894,22 +900,22 @@
 }
 
 
-@media (max-width:1025px){
+@media (max-width:1025px) {
     .partner-row {
         display: flex;
         flex-wrap: wrap;
     }
 
-    .mbank{
+    .mbank {
         padding-top: 45px;
     }
 
-    .it-academy{
+    .it-academy {
         padding-top: 0px;
         padding-right: 10px;
     }
 
-    .dodo-pizza{
+    .dodo-pizza {
         padding-top: 0px;
     }
 }
@@ -932,13 +938,14 @@
 
 .link-content {
     display: flex;
+    justify-content: center;
     gap: 20px;
-    padding-top: 20px;
+    padding-top: 50px;
 }
 
 .it {
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
     width: 280px;
@@ -948,16 +955,16 @@
 }
 
 
-.it:hover{
+.it:hover {
     width: 300px;
     height: 180px;
     transition: 0.7s;
     filter: drop-shadow(0px 0px 4px #00093C);
 }
 
-.career{
+.career {
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
     width: 280px;
@@ -967,16 +974,16 @@
 }
 
 
-.career:hover{
+.career:hover {
     width: 300px;
     height: 180px;
     transition: 0.7s;
     filter: drop-shadow(0px 0px 4px #00093C);
 }
 
-.chess{
+.chess {
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
     width: 280px;
@@ -985,14 +992,14 @@
     background: #DDF;
 }
 
-.chess:hover{
+.chess:hover {
     width: 300px;
     height: 180px;
     transition: 0.7s;
     filter: drop-shadow(0px 0px 4px #00093C);
 }
 
-.i-wanna{
+.i-wanna {
     max-width: 118px;
     padding-top: 18px;
     color: var(--dark-blue, #00093C);
@@ -1005,20 +1012,20 @@
 }
 
 
-@media (max-width:1025px){
-    .link-content{
+@media (max-width:1025px) {
+    .link-content {
         display: block;
     }
 
-    .it{
-      margin-top: 40px;
-    }
-
-    .career{
+    .it {
         margin-top: 40px;
     }
 
-    .chess{
+    .career {
+        margin-top: 40px;
+    }
+
+    .chess {
         margin-top: 40px;
     }
 }
@@ -1027,8 +1034,66 @@
 /* /////////////// */
 
 
-footer{
+footer {
     width: auto;
     height: 580px;
     background: #00093C;
+}
+
+.footer-content {
+    display: flex;
+    gap: 60px;
+}
+
+.collum-navifation {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 100px;
+}
+
+.collum-navifation h4 {
+    color: #FFF;
+}
+
+.collum-navifation img {
+    width: 29%;
+}
+
+.apps {
+    display: flex;
+    gap: 20px;
+}
+
+.apps img {
+    width: 10%;
+}
+
+.forkids {
+    display: flex;
+    flex-direction: column;
+    max-width: 90px;
+    padding-top: 30px;
+}
+
+.forkids h4 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.list {
+    color: #FFF;
+}
+
+.list a {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
 }
