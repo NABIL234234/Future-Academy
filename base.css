@@ -412,10 +412,12 @@
 
     .cloud-massage {
         position: absolute;
-        top: 55%;
+        top: 50%;
         width: 44%;
         height: 32%;
     }
+
+    
 
     .sova {
         position: absolute;
@@ -423,8 +425,30 @@
         top: 72%;
         left: 4%;
     }
+
 }
 
+
+@media (max-width:431px){
+    .cloud-massage{
+        position: absolute;
+        top:34%;
+        height: 18%;
+    }
+}
+
+
+@media (max-width:426px){
+    .cloud-massage{
+        position: absolute;
+        top:54%;
+        height: 22.9%;
+    }
+    
+    .sova-massage{
+        font-size: 10px;
+    }
+}
 
 /* /// */
 
@@ -588,7 +612,7 @@
 @media (max-width:1025px) {
 
     .Creator {
-        padding-top: 130px;
+        padding-top: 190px;
 
     }
 
@@ -601,6 +625,7 @@
 
     .photos-creator {
         background-repeat: no-repeat;
+        width: 90%;
         height:88%;
     }
 
