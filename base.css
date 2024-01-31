@@ -547,10 +547,14 @@
 }
 
 .photos-creator {
-    background-image: url(./IMAGE/png.img/unsplash_KIPqvvTOC1s.png);
+    /* background-image: url(./IMAGE/png.img/unsplash_KIPqvvTOC1s.png); */
     width: 380px;
     height: 400px;
     flex-shrink: 0;
+}
+
+.photos-creator img{
+
 }
 
 .person {
@@ -584,7 +588,7 @@
 @media (max-width:1025px) {
 
     .Creator {
-        padding-top: 190px;
+        padding-top: 130px;
 
     }
 
@@ -597,6 +601,11 @@
 
     .photos-creator {
         background-repeat: no-repeat;
+        height:88%;
+    }
+
+    .photos-creator img{
+       width: 69%;  
     }
 }
 
@@ -1097,3 +1106,35 @@ footer {
     font-weight: 400;
     line-height: 34px;
 }
+
+
+
+@media (max-width:1025px){
+    
+    footer{
+        height: auto;
+    }
+
+    .footer-content{
+        display: block;
+    }
+
+    .collum-navifation{
+     width: 50%;
+     padding-left: 30px;
+    }
+
+    .collum-navifation h4 {
+        font-size: 13px;
+    }
+
+    .forkids{
+        padding-left: 30px;
+    }
+
+}
+
+
+
+
+/* ////// */
