@@ -338,14 +338,16 @@
 
 
 .flex-for {
-    position: relative;
+    /* position: relative; */
     display: flex;
     justify-content: center;
-    padding-top: 120px;
-    padding-left: 300px;
+    padding-top:50px;
     gap: 30px;
 }
 
+.flex-for img{
+    padding-right: 50px;
+}
 
 .for {
     padding-top: 25px;
@@ -368,102 +370,24 @@
 }
 
 
-.cloud-massage {
-    position: absolute;
-    top: 82%;
-    left: 14%;
-    color: #FFF;
-    width: 15%;
-    height: 27%;
-    border-radius: 20px;
-    border: 2px solid rgb(10, 0, 151);
-
-}
-
-
-
-.sova-massage {
-    text-align: center;
-    padding-top: 29px;
-    color: #000;
-    font-family: Montserrat;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 22px;
-}
-
-.sova {
-    position: absolute;
-    top: 70%;
-    left: 13%;
-    width: 52%;
-    max-width: 300px;
-}
-
-
-@media (max-width:1025px) {
-    .flex-for {
-        display: flex;
-        flex-direction: column;
-        padding: 340px 35px 0px;
-
+@media (max-width:1025px){
+    .flex-for{
+        display: block;
+        padding-left: 30px;
+        
     }
 
-    .cloud-massage {
-        position: absolute;
-        top: 50%;
-        width: 44%;
-        height: 32%;
+    .sova-tablet{
+       width: 50%;
     }
 
-    
-
-    .sova {
-        position: absolute;
-        width: 42%;
-        top: 72%;
-        left: 4%;
-    }
 
 }
-
-
-@media (max-width:431px){
-    .cloud-massage{
-        position: absolute;
-        top:34%;
-        height: 18%;
-    }
-}
-
-
-@media (max-width:426px){
-    .cloud-massage{
-        position: absolute;
-        top:54%;
-        height: 22.9%;
-    }
-    
-    .sova-massage{
-        font-size: 10px;
-    }
-}
-
-
-@media (max-height:900px){
-    .cloud-massage{
-        position: absolute;
-        top: 40%;
-        height: 15.9%;
-    }
-}
-
 
 /* /// */
 
 .video {
-    padding-top: 250px;
+    padding-top: 50px;
 }
 
 .video-content {
@@ -498,31 +422,31 @@
 
 
 .white-tringle {
-    width: 9%;
+    width: 8%;
     position: absolute;
-    top: 135.8%;
+    top: 121.8%;
     left: 20%;
 }
 
 .linia41 {
-    width: 18%;
+    width: 14%;
     position: absolute;
-    top: 190%;
-    left: 10%;
+    top: 180%;
+    left: 12%;
 }
 
 .linia42 {
-    width: 17%;
+    width: 16.1%;
     position: absolute;
     top: 132%;
     left: 70%;
 }
 
 .white-croos {
-    width: 12%;
+    width: 10%;
     position: absolute;
-    top: 195%;
-    left: 72%;
+    top: 187%;
+    left: 74%;
 }
 
 
@@ -562,7 +486,7 @@
 
 
 .Creator {
-    padding-top: 350px;
+    padding-top: 90px;
 }
 
 .Creator-content {
@@ -587,9 +511,7 @@
     flex-shrink: 0;
 }
 
-.photos-creator img{
-
-}
+.photos-creator img {}
 
 .person {
     display: flex;
@@ -622,7 +544,7 @@
 @media (max-width:1025px) {
 
     .Creator {
-        padding-top: 190px;
+        padding-top: 70px;
 
     }
 
@@ -636,11 +558,11 @@
     .photos-creator {
         background-repeat: no-repeat;
         width: 90%;
-        height:88%;
+        height: 88%;
     }
 
-    .photos-creator img{
-       width: 69%;  
+    .photos-creator img {
+        width: 69%;
     }
 }
 
@@ -1080,7 +1002,7 @@
 
 footer {
     width: auto;
-    height: 580px;
+    height: 600px;
     background: #00093C;
 }
 
@@ -1144,26 +1066,26 @@ footer {
 
 
 
-@media (max-width:1025px){
-    
-    footer{
+@media (max-width:1025px) {
+
+    footer {
         height: auto;
     }
 
-    .footer-content{
+    .footer-content {
         display: block;
     }
 
-    .collum-navifation{
-     width: 50%;
-     padding-left: 30px;
+    .collum-navifation {
+        width: 50%;
+        padding-left: 30px;
     }
 
     .collum-navifation h4 {
         font-size: 13px;
     }
 
-    .forkids{
+    .forkids {
         padding-left: 30px;
     }
 
