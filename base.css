@@ -20,7 +20,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 15px;
     padding-bottom: 19px;
     height: 70px;
 }
@@ -68,13 +68,14 @@
     height: 100%;
     width: 95%;
     margin: 0 auto;
-    padding-top: 24px;
+    padding-top: 28px;
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
 
-.menu_container li {
+
+.me .menu_container li {
     padding-top: 22px;
 }
 
@@ -141,6 +142,10 @@
 
     .menu {
         display: initial;
+    }
+
+    .menu_container li {
+        padding-top: 22px;
     }
 
     .header .menu.inactive {
@@ -341,11 +346,11 @@
     /* position: relative; */
     display: flex;
     justify-content: center;
-    padding-top:50px;
+    padding-top: 50px;
     gap: 30px;
 }
 
-.flex-for img{
+.flex-for img {
     padding-right: 50px;
 }
 
@@ -370,15 +375,15 @@
 }
 
 
-@media (max-width:1025px){
-    .flex-for{
+@media (max-width:1025px) {
+    .flex-for {
         display: block;
         padding-left: 30px;
-        
+
     }
 
-    .sova-tablet{
-       width: 50%;
+    .sova-tablet {
+        width: 50%;
     }
 
 
@@ -780,6 +785,14 @@
     gap: 30px;
     padding-top: 30px;
 }
+.partner-card{
+    transition: .7s;
+}
+.partner-card:hover {
+    width: 190px;
+    height: 130px;
+    filter: drop-shadow(0px 0px 4px #00093C);
+}
 
 .mbank {
     width: 180px;
@@ -788,13 +801,6 @@
     background-color: #fff;
     padding-top: 35px;
 
-}
-
-.mbank:hover {
-    width: 190px;
-    height: 130px;
-    transition: 0.7s;
-    filter: drop-shadow(0px 0px 4px #00093C)
 }
 
 .mbank img {
@@ -811,14 +817,6 @@
 
 }
 
-.it-academy:hover {
-    width: 190px;
-    height: 130px;
-    transition: 0.7s;
-    filter: drop-shadow(0px 0px 4px #00093C)
-}
-
-
 .it-academy img {
     width: 88%;
     padding-left: 25px;
@@ -831,14 +829,6 @@
     background-color: #fff;
 }
 
-
-.dodo-pizza:hover {
-    width: 190px;
-    height: 130px;
-    transition: 0.7s;
-    filter: drop-shadow(0px 0px 4px #00093C)
-}
-
 .dodo-pizza img {
     width: 83%;
     padding-left: 30px;
@@ -849,14 +839,6 @@
     height: 120px;
     border-radius: 20px;
     background-color: #fff;
-}
-
-.beelien:hover {
-
-    width: 190px;
-    height: 130px;
-    transition: 0.7s;
-    filter: drop-shadow(0px 0px 4px #00093C)
 }
 
 .beelien img {
