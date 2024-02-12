@@ -487,9 +487,9 @@
     }
 
     .video_container {
-        width: 380px;
-        height: 167px;
-        border-radius: 10px;
+        width: 480px;
+        height: 457px;
+        border-radius: 20px;
     }
 
     .fall {
@@ -993,13 +993,12 @@
     .link {
         display: block;
         justify-content: center;
-        align-items:center;
-        padding-left: 32px;
+        align-items:center
     }
 
     .link-content {
         display: block;
-        padding-left: 8px;
+        padding-left: 58px;
     }
 
     .it {
@@ -1041,12 +1040,304 @@
     
 }
 
-
 @media (max-width:490px){
     .link-content{
-        padding-left: 44.4px;
+       padding-left: 95px;
+    }
+
+    .it {
+        width: 69%;
+        margin-top: 40px;
+    }
+    
+    .it:hover {
+        width: 190px;
+        height: 190px;
+        transition: 0.7s;
+        filter: drop-shadow(0px 0px 4px #00093C);
+    }
+    
+
+    .career {
+        width: 69%;
+        margin-top: 40px;
+    }
+
+    .career:hover {
+        width: 190px;
+        height: 190px;
+        transition: 0.7s;
+        filter: drop-shadow(0px 0px 4px #00093C);
+    }
+
+    .chess {
+        width: 69%;
+        margin-top: 40px;
+    }
+
+    .chess:hover {
+        width: 190px;
+        height: 190px;
+        transition: 0.7s;
+        filter: drop-shadow(0px 0px 4px #00093C);
     }
 }
+@media (max-width:390px){
+    .link-content{
+       padding-left: 85px;
+    }
+
+    .it {
+        width: 69%;
+        margin-top: 40px;
+    }
+    
+    .it:hover {
+        width: 160px;
+        height: 190px;
+        transition: 0.7s;
+        filter: drop-shadow(0px 0px 4px #00093C);
+    }
+    
+
+    .career {
+        width: 69%;
+        margin-top: 40px;
+    }
+
+    .career:hover {
+        width: 160px;
+        height: 190px;
+        transition: 0.7s;
+        filter: drop-shadow(0px 0px 4px #00093C);
+    }
+
+    .chess {
+        width: 69%;
+        margin-top: 40px;
+    }
+
+    .chess:hover {
+        width: 160px;
+        height: 190px;
+        transition: 0.7s;
+        filter: drop-shadow(0px 0px 4px #00093C);
+    }
+}
+@media (max-width:330px){
+    .link-content{
+       padding-left: 50px;
+    }
+
+    .it {
+        width: 79%;
+        margin-top: 40px;
+    }
+    
+    .it:hover {
+        width: 170px;
+        height: 190px;
+        transition: 0.7s;
+        filter: drop-shadow(0px 0px 4px #00093C);
+    }
+    
+
+    .career {
+        width: 79%;
+        margin-top: 40px;
+    }
+
+    .career:hover {
+        width: 170px;
+        height: 190px;
+        transition: 0.7s;
+        filter: drop-shadow(0px 0px 4px #00093C);
+    }
+
+    .chess {
+        width: 79%;
+        margin-top: 40px;
+    }
+
+    .chess:hover {
+        width: 170px;
+        height: 190px;
+        transition: 0.7s;
+        filter: drop-shadow(0px 0px 4px #00093C);
+    }
+}
+
+/* @media (max-height:935px){
+    .link-content{
+       padding-left: 65px;
+    }
+
+    .it {
+        width: 79%;
+        margin-top: 40px;
+    }
+    
+    .it:hover {
+        width: 242px;
+        height: 190px;
+        transition: 0.7s;
+        filter: drop-shadow(0px 0px 4px #00093C);
+    }
+    
+
+    .career {
+        width: 79%;
+        margin-top: 40px;
+    }
+
+    .career:hover {
+        width: 242px;
+        height: 190px;
+        transition: 0.7s;
+        filter: drop-shadow(0px 0px 4px #00093C);
+    }
+
+    .chess {
+        width: 79%;
+        margin-top: 40px;
+    }
+
+    .chess:hover {
+        width: 242px;
+        height: 190px;
+        transition: 0.7s;
+        filter: drop-shadow(0px 0px 4px #00093C);
+    }
+}
+
+@media (max-height:916px){
+    .link-content{
+       padding-left: 65px;
+    }
+
+    .it {
+        width: 79%;
+        margin-top: 40px;
+    }
+    
+    .it:hover {
+        width: 222px;
+        height: 190px;
+        transition: 0.7s;
+        filter: drop-shadow(0px 0px 4px #00093C);
+    }
+    
+
+    .career {
+        width: 79%;
+        margin-top: 40px;
+    }
+
+    .career:hover {
+        width: 222px;
+        height: 190px;
+        transition: 0.7s;
+        filter: drop-shadow(0px 0px 4px #00093C);
+    }
+
+    .chess {
+        width: 79%;
+        margin-top: 40px;
+    }
+
+    .chess:hover {
+        width: 222px;
+        height: 190px;
+        transition: 0.7s;
+        filter: drop-shadow(0px 0px 4px #00093C);
+    }
+}
+
+@media (max-height:850px){
+    .link-content{
+       padding-left: 55px;
+    }
+
+    .it {
+        width: 79%;
+        margin-top: 40px;
+    }
+    
+    .it:hover {
+        width: 215px;
+        height: 190px;
+        transition: 0.7s;
+        filter: drop-shadow(0px 0px 4px #00093C);
+    }
+    
+
+    .career {
+        width: 79%;
+        margin-top: 40px;
+    }
+
+    .career:hover {
+        width: 215px;
+        height: 190px;
+        transition: 0.7s;
+        filter: drop-shadow(0px 0px 4px #00093C);
+    }
+
+    .chess {
+        width: 79%;
+        margin-top: 40px;
+    }
+
+    .chess:hover {
+        width: 215px;
+        height: 190px;
+        transition: 0.7s;
+        filter: drop-shadow(0px 0px 4px #00093C);
+    }
+}
+@media (max-height:850px){
+    .link-content{
+       padding-left: 55px;
+    }
+
+    .it {
+        width: 79%;
+        margin-top: 40px;
+    }
+    
+    .it:hover {
+        width: 205px;
+        height: 190px;
+        transition: 0.7s;
+        filter: drop-shadow(0px 0px 4px #00093C);
+    }
+    
+
+    .career {
+        width: 79%;
+        margin-top: 40px;
+    }
+
+    .career:hover {
+        width: 205px;
+        height: 190px;
+        transition: 0.7s;
+        filter: drop-shadow(0px 0px 4px #00093C);
+    }
+
+    .chess {
+        width: 79%;
+        margin-top: 40px;
+    }
+
+    .chess:hover {
+        width: 205px;
+        height: 190px;
+        transition: 0.7s;
+        filter: drop-shadow(0px 0px 4px #00093C);
+    }
+} */
+
 
 /* /////////////// */
 
