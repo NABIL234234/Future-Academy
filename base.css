@@ -1054,7 +1054,7 @@
 
 footer {
     width: auto;
-    height: 600px;
+    height: 400px;
     background: #00093C;
 }
 
@@ -1084,17 +1084,18 @@ footer {
 }
 
 .apps img {
-    width: 10%;
+    width: 50%;
+    height: 100px;
 }
 
-.forkids {
+.information {
     display: flex;
     flex-direction: column;
-    max-width: 90px;
-    padding-top: 30px;
+    padding-top: 95px;
+    padding-left: 600px;
 }
 
-.forkids h4 {
+.information h4 {
     color: #FFF;
     font-family: Montserrat;
     font-size: 16px;
@@ -1104,10 +1105,13 @@ footer {
 }
 
 .list {
+    display: flex;
+    flex-direction: column;
     color: #FFF;
 }
 
-.list a {
+.list a{
+    padding-top: 10px;
     color: #FFF;
     font-family: Montserrat;
     font-size: 10px;
@@ -1121,7 +1125,7 @@ footer {
 @media (max-width:1025px) {
 
     footer {
-        height: auto;
+        height: 670px;
     }
 
     .footer-content {
@@ -1130,15 +1134,20 @@ footer {
 
     .collum-navifation {
         width: 50%;
-        padding-left: 30px;
+        padding-left: 32px;
+    }
+
+    .apps img{
+        width: 152%;
     }
 
     .collum-navifation h4 {
         font-size: 13px;
     }
 
-    .forkids {
-        padding-left: 30px;
+    .information{
+        padding-top: 10px;
+        padding-left: 32px;
     }
 
 }
