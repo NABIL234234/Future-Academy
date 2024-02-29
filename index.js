@@ -65,3 +65,5 @@ const mySlider = new Splide("#mySlider", {
 });
 
 mySlider.mount();
+
+console.log('Hello World');
